@@ -2,8 +2,9 @@
 /* 
 
 Alumno: Andrés Muñoz C.
-Comisión 31650 
-Tutor: Luis Salinas  
+Comisión 31650. 
+Tutor: Luis Salinas.  
+Profesor: Fernando Luna.
 
 Entrega desafío Complementario - CoderHouse
 
