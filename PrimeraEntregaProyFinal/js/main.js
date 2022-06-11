@@ -5,11 +5,16 @@ Comisión 31650.
 Tutor: Luis Salinas.  
 Profesor: Fernando Luna.
 
-Entrega Desafío Complementario 2 - CoderHouse / Clase 4 / Arrays & Funciones de orden superior
+Primera Entrega del Proyecto Final
 
-Desafío: Traslada al proyecto integrador el concepto de objetos, visto en la clase de hoy. A partir de los ejemplos mostrados la primera clase, 
-y en función del tipo de simulador que hayas elegido, deberás: Incorporar al menos un Array en tu proyecto. Utilizar algunos de los métodos o 
-propiedades vistos en la clase.
+Formato: Archivos HTML
+Objetivos del desafío: 
+El estudiante deberá utilizar el tag correspondiente para asociar un script JS a una página HTML. En caso de contar con conocimientos previos en 
+HTML y CSS puede plantear los elementos iniciales correspondientes a la interfaz del simulador.
+Formato: Archivo JS
+Objetivo del desafío:
+El estudiante deberá codificar la funcionalidad inicial del simulador. Identificando el flujo de trabajo en el script en términos de captura de 
+entradas ingresadas por el usuario, procesamiento esencial del simulador y notificación de resultados en forma de salida.
 
 + Recomedación toLowerCase() 
 
