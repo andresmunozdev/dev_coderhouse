@@ -7,5 +7,3 @@ const arraySeguroHogar = ['Incendio','Sismo','Robo'];
 const arraySeguroAutomotriz = ['Perdida Total','Robo'];
 const arraySeguroSalud = ['Ambulatorio','Hospitalario','Farmacia','Ambulatorio y Farmacia'];
 
-//const listadoSeguros = document.getElementById("listadoSeguros") //Dentro de este nodo, cargaré los <li> con los productos
-//const listadoCarrito = document.getElementById("listadoCarrito") //En este otro, los productos a comprar
