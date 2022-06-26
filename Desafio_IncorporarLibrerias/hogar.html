@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguros Hogar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script defer src="js/variables.js"></script>
+    <script defer src="js/main.js"></script>
+    <script defer src="js/mainForm.js"></script>
+</head>
+<body>
+    <div class="center">
+        <h1 id="titulo">NOMBRE COMPAÑIA DE SEGUROS</h1>
+        <p id="slogan">algo debe ir aquí</p>
+    </div>
+    <div class="center">
+        <body style="background-color:#ebf6f0;">
+        <img class="responsive-img" src="images/Seguros_Hogar.png" width="10%">
+    </div>
+    <form action="#" class="color-formulario z-depth-2">
+        <p>INGRESE SUS DATOS PARA COTIZAR SU SEGURO</p> 
+        <input type="text" id="inputNombre" placeholder="Ingrese su nombre y apellidos">
+        <input type="tel" id="inputTelefono" placeholder="Ingrese su teléfono móvil">
+        <input type="number" id="inputM2" placeholder="Ingrese M2 de su Propiedad">
+        <input type="email" id="inputEmail" placeholder="Ingrese su Correo electrónico">
+        <br>
+        <br>
+        <input type="submit" class="btn blue white-text" id="submit" value="COTIZAR">
+    </form>
+    <BR>
+        <form action="#" class="color-formulario2 z-depth-2">
+          
+            <p>El Valor de su Cotización Mensual es:</p> 
+            <p id="cotizacionHogar" ></p>
+            <p id="cotizacionHogarPie"></p>
+        </form> 
+       <BR>
+        <div class="center">
+            <a href="index.html">🏠 ⬅️</a> 
+        </div>
+</body>
+</html>
