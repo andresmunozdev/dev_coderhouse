@@ -9,19 +9,19 @@ function seguroHogar() {
     let m22 = parseInt(inputM2.value) * 890
     //alert (inputNombre.value + " el costo estimado mensual de su Póliza Seguro Hogar será de $ " + m22 + "(CLP)");
     cotizacionHogar.innerText = ("$ "+ m22 + " (CLP)");
-    numeroFecha();
+    //numeroFecha();
 }
-
+/*
 function numeroFecha() {
     let hoy = new Date()
     const numeroCotizacionRandom = () => {
       return Math.round( Math.random() * 800 )
     }
 
-    //alert (inputNombre.value + ' su Nº de propuesta es el: ' + numeroCotizacionRandom() + ' y será válida por 10 días a contar del '+ hoy.toLocaleDateString() + '.' + ' Gracias por Preferirnos.');
-    //window.location.href = "index.html"; 
+    alert (inputNombre.value + ' su Nº de propuesta es el: ' + numeroCotizacionRandom() + ' y será válida por 10 días a contar del '+ hoy.toLocaleDateString() + '.' + ' Gracias por Preferirnos.');
+    window.location.href = "index.html"; 
 }
-
+*/
 function guardarDatos() {
     
     sessionStorage.setItem('tempNombres', inputNombre.value); 

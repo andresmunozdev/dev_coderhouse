@@ -10,18 +10,20 @@ function seguroSalud() {
     //alert (inputNombre.value + " el costo estimado mensual de su Póliza Seguro Salud será de $ " + edad + "(CLP)");
     cotizacionSalud.innerText = ("$ "+ edad + " (CLP)");
 
-    numeroFecha();
+    //numeroFecha();
 }
 
+/*
 function numeroFecha() {
     let hoy = new Date()
     const numeroCotizacionRandom = () => {
       return Math.round( Math.random() * 800 )
     }
     
-    //alert (inputNombre.value + ' su Nº de propuesta es el: ' + numeroCotizacionRandom() + ' y será válida por 10 días a contar del '+ hoy.toLocaleDateString() + '.' + ' Gracias por Preferirnos.');
-    //window.location.href = "index.html"; 
+    alert (inputNombre.value + ' su Nº de propuesta es el: ' + numeroCotizacionRandom() + ' y será válida por 10 días a contar del '+ hoy.toLocaleDateString() + '.' + ' Gracias por Preferirnos.');
+    window.location.href = "index.html"; 
 }
+*/
 
 function guardarDatosCte() {
 

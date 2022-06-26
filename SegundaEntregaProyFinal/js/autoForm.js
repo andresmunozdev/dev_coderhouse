@@ -8,9 +8,9 @@ function seguroAutomotriz() {
     let km2 = parseInt(inputKm.value) * 150
     //alert (inputNombre.value + " el costo estimado mensual de su Póliza Seguro Automotriz será de $ " + km2 + "(CLP)");
     cotizacionAuto.innerText = ("$ "+ km2 + " (CLP)");
-    numeroFecha();
+    //numeroFecha();
 }
-
+/*
 function numeroFecha() {
     let hoy = new Date()
     const numeroCotizacionRandom = () => {
@@ -19,6 +19,7 @@ function numeroFecha() {
     //alert (inputNombre.value + ' su Nº de propuesta es el: ' + numeroCotizacionRandom() + ' y será válida por 10 días a contar del '+ hoy.toLocaleDateString() + '.' + ' Gracias por Preferirnos.');
     //window.location.href = "index.html"; 
 }
+*/
 
 function guardarDatosCte() {
     const datosCte = {nombre: inputNombre.value,
