@@ -4,13 +4,24 @@ Comisión 31650.
 Tutor: Luis Salinas.  
 Profesor: Fernando Luna.
 
-
+Estructura inicial del Simulador
 Formato: Página HTML y  código fuente en JavaScript. Debe identificar el apellido del estudiante en el nombre de archivo comprimido por “claseApellido”
 
-Sugerencia: Es posible asociar más de un evento a un elemento y se pueden emplear función comunes, anónimas y arrow para los manejadores de eventos.
+Objetivos del desafío: 
+El estudiante deberá utilizar el tag correspondiente para asociar un script JS a una página HTML. 
+Construir la interfaz inicial del simulador, definiendo elementos destinados a la captura de entradas (formularios, inputs y/o botones) 
+y secciones en el HTML para la notificación de salidas 
 
-Consigna: Con lo que vimos sobre DOM, ahora puedes sumarlo a tu proyecto, para interactuar entre los elementos HTML y JS. Es decir, asociar eventos
-que buscamos controlar sobre los elementos  de la interfaz de nuestro simulador
+
+Script del Simulador
+Formato: Archivo JS
+Objetivo del desafío:
+El estudiante deberá codificar las funcionalidades mínimas del simulador. Identificando el flujo de trabajo en el script en términos 
+de captura de entradas y eventos de usuario, funciones de procesos esenciales y notificación de resultados en forma de salida por HTML, 
+modificando el DOM.
+En caso de requerir un volumen de información estàtica significante, el estudiante deberá emplear objetos literales y/o parseo JSON,
+tanto para obtener como para almacenar datos.
+
 
 
 Comentarios indicados en la devolución anterior: Adecuaciones 
@@ -23,8 +34,8 @@ este error que me aparece en la consola y me di cuenta que eran las rutas de los
 5.- Los eventos estan correctos mas alla que haya errores.
 
 1.- Se actualizan rutas de los href
-2.- Se reubicarán esas variables ya que la lógica irá en cada js según tipo de seguro
-3.- Se adecuan los windows.location.href
+2.- Se reubicarán esas variables ya que la lógica irá en cada js según tipo de seguro (siguiente version)
+3.- Se adecuan los windows.location.href se comentan para cumplir con la rubrica
 4.- OK N/A
 5.- OK N/A 
 
