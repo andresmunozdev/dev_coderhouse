@@ -18,7 +18,7 @@ Spread. Usa el operador spread para replicar objetos o arrays o, también, para 
 Se eliminan imagenes del banner no utilizadas
 Se eliminan lineas de código antiguo y sus comentarios 
 Se unifican archivos con variables en main.js 
-Se adpta index y se arrega gráfica
+Se adapta index y se arregla gráfica
 Se crea nuevo formulario de contacto con apoyo de libreria bootstrap 
 Se corrige los JS de cada HTML (eliminando los JS vacios)
 Se renombra JS de HTML Hogar (antes mainform ahora hogarForm para mantener nombres consistentes)
